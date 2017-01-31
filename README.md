@@ -17,9 +17,9 @@ Test platforms:
 - www.olx.ua
 - www.bookingpal.com
 
-How to execute
-1. Clone project
-2. Ensure you have java 1.8 and the latest gradle version
-3. Run from project root: gradle clean test -Dstories=${YOUR_STORIES_TO_BE_EXECUTED_PATTERN}, i.e. gradle clean test -Dstories=*.story
-4: Test reports location: build/jbehave/view/index.html
+How to execute:
+- Clone project
+- Ensure you have java 1.8 and the latest gradle version
+- Run from project root: gradle clean test -Dstories=${YOUR_STORIES_TO_BE_EXECUTED_PATTERN}, i.e. gradle clean test -Dstories=*.story
+- Test reports location: build/jbehave/view/index.html
 
